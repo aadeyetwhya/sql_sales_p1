@@ -52,7 +52,7 @@ SQL queries were written to answer:
 
 ---
 
-## 📊 Key Business Questions Solved
+##  Key Business Questions Solved
 
 -  What were the sales on a specific date (`2022-11-05`)?
 -  How many large Clothing category transactions occurred in November 2022?
@@ -88,7 +88,7 @@ Feel free to connect, collaborate, or share feedback!
 
 ---
 
-## 🛠 Tools Used
+##  Tools Used
 
 - **SQL Server / T-SQL**
 - **SQL Server Management Studio (SSMS)**
