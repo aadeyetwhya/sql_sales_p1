@@ -1,12 +1,12 @@
-# 🛍️ Retail Sales Analysis — SQL Project
+# 🛍 Retail Sales Analysis — SQL Project
 
-## 📘 Project Overview
+##  Project Overview
 
 This beginner-level SQL project focuses on analyzing retail transaction data using fundamental SQL techniques. The project walks through database setup, data cleaning, exploratory analysis, and business problem-solving — all done using structured SQL queries. It’s a great starting point for aspiring data analysts looking to build confidence with SQL in a real-world context.
 
 ---
 
-## 🎯 Objectives
+##  Objectives
 
 1. **Database Setup** – Create a clean retail sales table from scratch.
 2. **Data Cleaning** – Remove incomplete or null entries.
@@ -15,20 +15,20 @@ This beginner-level SQL project focuses on analyzing retail transaction data usi
 
 ---
 
-## 🧱 Project Structure
+##  Project Structure
 
-### 🔹 1. Database Setup
+###  1. Database Setup
 
 - Created a database: `p1_retail_db`
 - Created a table: `retail_sales`  
   Includes columns for transaction ID, date/time, customer demographics, product category, quantity, pricing, and sales metrics.
 
-### 🔹 2. Data Cleaning
+###  2. Data Cleaning
 
 - Checked for and removed null/missing values across key columns.
 - Fixed column name typos (e.g., `quantiy` → `quantity`).
 
-### 🔹 3. Data Exploration
+###  3. Data Exploration
 
 Performed basic EDA tasks:
 
@@ -36,7 +36,7 @@ Performed basic EDA tasks:
 - Count of unique customers
 - Number of product categories
 
-### 🔹 4. Business Queries & Analysis
+###  4. Business Queries & Analysis
 
 SQL queries were written to answer:
 
@@ -54,20 +54,20 @@ SQL queries were written to answer:
 
 ## 📊 Key Business Questions Solved
 
-- 🗓️ What were the sales on a specific date (`2022-11-05`)?
-- 👕 How many large Clothing category transactions occurred in November 2022?
-- 💰 Which categories generate the highest total sales?
-- 🧑‍🤝‍🧑 What’s the average age of customers purchasing Beauty products?
-- 💸 Which transactions exceeded 1000 in total value?
-- 🧑‍🦰 How does transaction volume vary across genders and product categories?
-- 🥇 Who are the top 5 customers based on lifetime spending?
-- 🛍️ How many unique customers shop by category?
-- 🕒 Which shifts (Morning/Afternoon/Evening) see the most activity?
-- 📅 Which months perform best in terms of average sales?
+-  What were the sales on a specific date (`2022-11-05`)?
+-  How many large Clothing category transactions occurred in November 2022?
+-  Which categories generate the highest total sales?
+-  What’s the average age of customers purchasing Beauty products?
+-  Which transactions exceeded 1000 in total value?
+-  How does transaction volume vary across genders and product categories?
+-  Who are the top 5 customers based on lifetime spending?
+-  How many unique customers shop by category?
+-  Which shifts (Morning/Afternoon/Evening) see the most activity?
+-  Which months perform best in terms of average sales?
 
 ---
 
-## 🔍 Example Analysis Snippet – Shift Classification
+##  Example Analysis Snippet – Shift Classification
 
 ```sql
 SELECT *,
@@ -79,16 +79,16 @@ SELECT *,
 FROM sales_data;
 ```
 
-## 🙋 Author – Aditya Kafle
+##  Author – Aditya Kafle
 
 This project is part of my data portfolio. I'm passionate about solving real-world problems using SQL and analytics.  
 Feel free to connect, collaborate, or share feedback!
 
-- 💼 **LinkedIn**: (https://www.linkedin.com/in/najirr)  
+-  **LinkedIn**: (https://www.linkedin.com/in/najirr)  
 
 ---
 
-## 🛠️ Tools Used
+## 🛠 Tools Used
 
 - **SQL Server / T-SQL**
 - **SQL Server Management Studio (SSMS)**
